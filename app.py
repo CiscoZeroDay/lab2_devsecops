@@ -6,7 +6,7 @@ HARDCODED_PASSWORD = "P@ssw0rd123"  # Pour le test Bandit
 
 @app.route("/")
 def index():
-    return jsonify({"message": "Hello from Flasssssk!"})
+    return jsonify({"message": "Hello from Flassssssk!"})
 
 @app.route("/echo", methods=["POST"])
 def echo():
